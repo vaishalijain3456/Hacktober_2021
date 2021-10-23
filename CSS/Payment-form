@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact Us</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header p{
+            text-align: center;
+            color: whitesmoke;
+
+        }
+
+        body{
+           
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 15px 30px;
+            font-size: 17px;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .form-box{
+            background-image: url(https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+            height: 150%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 1% 10%;
+           border-radius: 4px;
+           
+            
+        }
+    
+        
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+       select,
+        textarea{
+            font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.6%;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255,0.7);
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+
+        }
+
+        select[name="Country_code"]{
+            width: 165px;
+        }
+        input[type="number"]{
+            width: 230px;
+        }
+        .main_heading{
+            text-align: center;
+            color: whitesmoke;
+
+        }
+        input[type="submit"]{
+            background-color: rgb(41, 120, 194);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 170px;
+        }
+        input[type="submit"]:hover{
+            background-color:rgb(24, 153, 240) ;
+        }
+        footer{
+            background-color: rgba(165, 161, 161, 0.466);
+    overflow: hidden;
+    border-radius: 4px;
+        }
+        footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="form-box">
+    <form class="box1">
+        <header>
+        <h1 class="main_heading">Contact Us</h1>
+        
+        
+    </header>
+        <p><input type="text" name="name" placeholder="Name" required></p>
+       
+   
+    <p><input type="email" name="email" id="email" placeholder="Email" required></p>
+   
+  
+    <p>
+        <select name="Country_code" id="country_code" required>
+            <option value="">--Country code--</option>
+            <option value="Master Card">+91(India)</option>
+            <option value="Visa">+1(US)</option>
+            <option value="SBI Pay">+123 (Xyz country)</option>
+           
+
+        </select>
+    
+         <input type="Number" name="Phone Number" id="Phone Number" placeholder="Phone number" required>
+     </p>
+     <p>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Your message to us..." maxlength="1000"></textarea>
+    </p>
+     <p>
+        
+        <input type="submit" value="Submit">
+    </p>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Copyright Info</a>
+        <a href="#">Contact Us</a>
+        <a href="#">&copy; 2021 | (Your name)</a>
+    </footer>
+    </form>
+</div>
+</body>
+</html>
