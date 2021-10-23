@@ -1,0 +1,193 @@
+navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    }
+    #navbar{
+        background: #333;
+        color: #fff;
+        overflow: auto;
+        }
+        #navbar a{
+            color: #fff;
+        }
+        #navbar h1{
+            float: left;
+            padding-top:10px;
+            padding-bottom:10px;
+            
+        }
+        #navbar ul{
+            list-style: none;
+            float:right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #navbar ul li{
+            float:left;
+        
+        }
+        #navbar ul li a{
+            font-size: 20px;
+            display: blocks;
+            padding: 20px;
+            text-align:center;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        #navbar ul li a:hover,#navbar ul li a.current{
+            background: #444;
+            color: #f7c08a;
+        }
+        body{
+            background-image: url("https://i.pinimg.com/originals/20/c1/b4/20c1b42fa4b22d65fc5812ba5b44a4be.jpg");
+        }
+        #int{
+            font-size: 70px;
+            text-align: center;
+            color: #fff;
+        }
+        #int2{
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+        }
+        #int3{
+            text-align: center;
+            color: #fff; 
+        }
+        #decor {
+            background-color: #444;
+            border-style: solid;
+            display: flex;
+        }
+
+        #music {
+            height: 20px;
+            width: 20px;
+            font-size: 50px;
+            
+            color: #ffd700;
+        }
+        #imgs{
+           width : 80px;
+           height : 70px ;
+           padding-left: 40%;
+           padding-top: 1%;
+          
+           
+        }
+       #grey{
+           background-color: rgb(34, 24, 24);
+       }
+       #songs{
+           font-size:40px ;
+           color: #fff;
+           text-align: center;
+
+       }
+       #songs2{
+           text-align: center;
+           padding-left: 10%;
+           padding-right: 10%;
+           color: #fff;
+       }
+       .btn{
+           color: #fff;
+           background-color: red;
+          width: 150px;
+          height: 60px;
+       }
+       btn:hover{
+      color: #f7c08a;    
+       }
+       #conc{
+text-align: center;
+color: #fff;
+       }
+       .att{
+           padding-top: 10%;
+           background-color: #fff;
+           text-align: center;
+       }
+       .parat{
+           padding-left: 10%;
+           padding-right: 10%;
+           font-size: 20px;
+           font-family: 'Times New Roman', Times, serif;
+       }
+       .btn2{
+        color: #fff;
+        background-color:blue;
+       width: 150px;
+       height: 60px;
+    }
+    #blu{
+        padding-top: 140px;
+        padding-bottom: 140px;
+      color: #fff;
+        background-image: url("https://media.istockphoto.com/photos/deep-space-background-picture-id178149253?k=6&m=178149253&s=612x612&w=0&h=YmUQIN2hpUaQaNdTM-x5sX7lP9HHfXGUxouznSbL8ck=");
+  padding-left: 20px;
+  padding-right: 20px;
+  
+    }
+    #imgg2{
+        width: 100%;
+    }
+
+    #gplan{
+    background-image:url("https://thumbs.dreamstime.com/b/white-light-wood-texture-natural-pattern-background-design-decoration-grunge-wooden-surface-wall-table-desk-top-149881122.jpg");
+        
+    }
+
+
+    #card{
+        height: 400px;
+        width: 600px;
+        float: left;
+        border-style: solid;
+    }
+    footer .footer-cols {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem;
+        text-align: left;
+        font-size: 14px;
+      }
+    
+      footer .footer-cols ul {
+        list-style: none;
+      }
+    
+      footer .footer-cols ul li:first-child {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: #444 solid 1px;
+        margin-bottom: 1rem;
+      }
+    
+      footer .footer-bottom {
+        background: #333;
+        padding: 1rem;
+      }
+    
+    /* Utility Classes */
+    .container {
+        max-width: 1180px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 3rem;
+      }
+    
+    .lead {
+        font-size: 1.3rem;
+    }
+    
+    .text-center {
+        text-align: center;
+        color: #fff;
+      }
+    #plann{
+        color: #fff;
+    }
