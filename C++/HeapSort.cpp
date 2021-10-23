@@ -1,14 +1,11 @@
 // C++ program for implementation of Heap Sort
 #include<iostream>
-#include<conio.h>
 using namespace std;
 
-
- // } Driver Code Ends
 // The functions should be written in a way that array become sorted 
 // in increasing order when heapSort() is called.
 
-    //Heapify function to maintain heap property.
+//Heapify function to maintain heap property.
 class sort{
 	public:
     void heapify(int arr[], int n, int i)  
@@ -53,19 +50,18 @@ class sort{
 
 
 
-/* Function to print an array */
-void printArray(int arr[], int size)
-{
-    int i;
-    for (i=0; i < size; i++)
-        cout<<arr[i];
-    printf("\n");
-}
+	// Function to print an array //
+	void printArray(int arr[], int size)
+	{
+	    int i;
+	    for (i=0; i < size; i++)
+	        cout<<arr[i]<<" ";
+	    printf("\n");
+	}
 };
-// Driver program to test above functions
+
 int main()
 {
-	cout<<"helli";
     int arr[1000000],n,i;
     cout<<"Enter size of Array : ";
     cin>>n;
@@ -74,8 +70,16 @@ int main()
       cin>>arr[i];
     sort ob;
     ob.heapSort(arr, n);
+    cout<<"Sorted array : ";
     ob.printArray(arr, n);
-    getch();
     return 0;
 }
-
+//Sample test case:
+//Enter size of Array : 6
+//Enter array : 3
+//4
+//1
+//7
+//5
+//8
+//Sorted array : 1 3 4 5 7 8 
