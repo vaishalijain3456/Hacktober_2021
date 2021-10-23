@@ -10,17 +10,19 @@ class queueEntry(object):
         self.dist=dist
 
 
-# Function to find minimum number of dice throws, move is the array of size n, where n is the total number of cells on the board.
+# Function to find minimum number of dice throws, move is the array of size n , where n is the total number of cells on the board.
+# if there is no ladder or snake from cell i, move[i] contains -1, otherwise, move[i] contains the cell number to which the snake or ladder takes to.
+
 def minThrows(move,n):
     visited=False*n
     queue=[]
     visited[0]=True
     queue.append(queueEntry(0,0))
 
-    que=queueEntry()
+    front=queueEntry()
     while queue:
         que=queue.pop(0)
-        v=que.v
+        v=front.v
 
         if v==n-1:
             break
@@ -29,13 +31,13 @@ def minThrows(move,n):
         while j<=v+6 and j<n:
             if visited[j] is False:
                 a=queueEntry()
-                a.dist=que.dist+1
+                a.dist=front.dist+1
                 visited[j]=True
 
                 a.v=move[j] if move[j]!=-1 else j
                 queue.append(a)
             j+=1
-    return que.dist
+    return front.dist
 
 
 #Driver Program to test above code
