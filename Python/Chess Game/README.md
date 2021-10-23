@@ -34,10 +34,6 @@ White is always first to move and players take turns alternately moving one piec
 
 chess_game.py
 
-Have fun!!
 
-## Output
-
-<img align="center" alt="output" src="Images/img.jpg"/>
 
 Author : Prathima Kadari
