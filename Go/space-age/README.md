@@ -1,5 +1,7 @@
 # Space Age
 
+It is a program in Go which allows to calculate the age of the space
+
 Given an age in seconds, calculate how old someone would be on:
 
    - Mercury: orbital period 0.2408467 Earth years
