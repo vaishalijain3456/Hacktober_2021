@@ -25,6 +25,7 @@ string addStrings(string num1, string num2) {
             cout<<num1[i]<<" "<<num2[i]<<endl;
             cout<<a<<" "<<b<<endl;
             int sum=carry+a+b;
+  
             int u=sum%10;
             res+=u;
             carry=sum/10;
