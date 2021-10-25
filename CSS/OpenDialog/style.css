@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --ratio: 3.74;
+  --cta-color: rgb(0, 102, 254);
+  --light-color-bg: rgb(238, 241, 247);
+  --dark-color-bg: rgb(55, 65, 81);
+  --grey-color: rgb(107, 114, 128);
+  --leading: 0.025em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main {
+  width: 700px;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+button {
+  display: block;
+  margin-top: 2rem;
+  width: calc(44px * var(--ratio));
+  height: 44px;
+  border-radius: calc(3px * var(--ratio));
+  border: none;
+  letter-spacing: ccalc(3 * var(--leading, 0.025em));
+  font-family: inherit;
+  color: var(--grey-color);
+  background-color: var(--light-color-bg);
+  font-size: large;
+  font-weight: 700;
+}
+
+button:focus {
+  outline: none;
+  border: 0.0625rem solid transparent;
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2rem var(--dark-color-bg);
+}
+
+button.cta {
+  background-color: var(--cta-color);
+  color: white;
+}
+
+button.cta:focus {
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2rem var(--cta-color);
+}
+
+#open_dialog {
+  margin: 0 auto;
+}
+
+dialog {
+  border: none !important; /* !important is needed here to override polyfill CSS, if loaded */
+  border-radius: calc(5px * var(--ratio));
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 1.6rem;
+  max-width: 400px;
+}
+
+dialog img {
+  display: block;
+  max-width: 75%;
+  margin: 1rem 0 auto 2rem;
+}
+
+.h1 {
+  margin: 2rem 0 1rem;
+  font-weight: 900;
+}
+
+.h2 {
+  margin: 2rem 0 1rem;
+  font-weight: 800;
+}
+
+p {
+  color: var(--grey-color);
+  letter-spacing: var(--leading, 0.025em);
+  line-height: 1.625;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.flex-space-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialog</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="h1">Dialog</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum iure at
+        dolor libero assumenda nam dolorum consequuntur voluptatem? Numquam
+        accusantium eligendi, deleniti dolores dicta fuga aperiam placeat
+        eveniet. Quod, magnam.
+      </p>
+      <button id="open_dialog">Open Dialog</button>
+
+      <dialog
+        aria-labelledby="dialog_title"
+        aria-describedby="dialog_description"
+      >
+        <h2 id="dialog_title" class="h2">Use location services?</h2>
+        <p id="dialog_description">
+          In order to give directional instructions, we kindly ask you to turn
+          on the location services.
+        </p>
+        <div class="flex flex-space-between">
+          <button id="close_dialog">Close</button>
+          <button id="confirm_dialog" class="cta">Confirm</button>
+        </div>
+      </dialog>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
