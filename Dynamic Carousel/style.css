@@ -1,0 +1,41 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+/*General*/
+
+/* Header */
+#head {
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  position: relative;
+  background-position-x: center;
+}
+
+.fluid_container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+#camera_wrap_4 {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin-bottom: 0 !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 420px) {
+  #camera_wrap_4,
+  #head {
+    height: 380px !important;
+  }
+}
