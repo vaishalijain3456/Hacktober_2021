@@ -1,0 +1,4 @@
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/tomsteele/go-nmap v0.0.0-20191202052157-3507e0b03523 h1:WqjohBOkUq6CIfZSDh7lTcJ0DVRewz9ynYwzcD0zLP8=
+github.com/tomsteele/go-nmap v0.0.0-20191202052157-3507e0b03523/go.mod h1:J5FsBj9uaXAn5G+CX8c9g+FkLwG2UAHqaxCGunmD1Hc=
