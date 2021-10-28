@@ -77,7 +77,7 @@ int main()
         cout<<"\n\t"<<brr[i]<<" "<<endl;
     }
    
-   //noe for float 
+   //also  for float 
    cout<<"\n\t NOW ENTER ELEMENTS FOR FLOAT "<<endl;
    float *crr=new float[size];
 
