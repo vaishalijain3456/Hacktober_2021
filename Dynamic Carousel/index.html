@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	<title>Carousel</title>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+	"> 
+	<link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' id='camera-css'  href='https://cdnjs.cloudflare.com/ajax/libs/Camera/1.3.4/css/camera.css' type='text/css' media='all'> 
+	
+</head>
+<body>
+	
+
+	<!-- Header -->
+	<header id="head">
+
+		
+		<div class="container">
+					<div class="fluid_container">
+                    <div  id="camera_wrap_4">
+                        <div  data-src="img1.jpg">
+                        </div> 
+                        <div  data-src="img2.jpg">
+                        </div>
+                        <div data-src="img3.jpg">
+                        </div> 
+                    </div>
+                </div>
+		</div>
+	</header>
+	
+	
+	
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+
+
+
+	'></script>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'></script> 
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/Camera/1.3.4/scripts/camera.min.js'></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script> 
+	
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_4').camera({
+				height: '400',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: false,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: '/'
+			});
+
+		});
+	</script>
+    
+</body>
+</html>
