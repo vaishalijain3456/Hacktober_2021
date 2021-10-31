@@ -1,23 +1,21 @@
-#here I created this function for implementing Bubble sort using python language
+def bubbleSort(arr):
+    n = len(arr)
 
-def bubblesort(elements):
+    # Traverse through all array elements
+    for i in range(ngit - 1):
+        # range(n) also work but outer loop will repeat one time more than needed.
 
-     # Looping from size of array from last index[-1] to index [0]
-     for n in range(len(elements)-1, 0, -1):
-         for i in range(n):
-             if elements[i] > elements[i + 1]:
-             # swapping data if the element is less than next element in the array
-                elements[i], elements[i + 1] = elements[i + 1], elements[i]
-                print(elements)
-                elements = []
-             # taking size of array from user
-     size = int(input("Enter How many number you want to sort:"))
-     # taking array data from the user
-     for i in range(size):
-         value = int(input("Enter the element:"))
-         elements.append(value)
-     print("Array :", elements)
-     bubblesort(elements)  #calling of function
-     print("Sorted Array is, ")
-     for i in range(size):
-         print(elements[i], end =" ")
+        # Last i elements are already in place
+        for j in range(0, n - i - 1):
+
+            # traverse the array from 0 to n-i-1
+            # Swap if the element found is greater
+            # than the next element
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+
+# Driver code to test above
+arr = [64, 34, 25, 12, 22, 11, 90]
+
+bubbleSort(arr)

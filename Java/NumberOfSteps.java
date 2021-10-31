@@ -1,7 +1,6 @@
 public class NumberOfSteps {
 
-  public static int getSteps(int n)
-    {
+    public static int getSteps(int n) {
         if (n == 0)
             return 1;
         if (n == 1)
@@ -11,9 +10,8 @@ public class NumberOfSteps {
         else
             return getSteps(n - 3) + getSteps(n - 2) + getSteps(n - 1);
     }
- 
-    public static void main(String argc[])
-    {
+
+    public static void main(String argc[]) {
         int n = 7;
         System.out.println(getSteps(n));
     }
