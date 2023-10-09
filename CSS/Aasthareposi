@@ -1,0 +1,187 @@
+<!DOCTYPE hmtl>
+<html lang='en'>
+  <head>
+  <title>Product Landing Page</title>
+  <link rel='stylesheet' href='styles.css'></link>
+  <script src="https://kit.fontawesome.com/2c27f9d018.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id='header'>
+        <div class='logo'>
+          <img id='header-img' src='https://www.designevo.com/res/templates/thumb_small/pizza-menu-logo.webp'
+               alt='pizza guy holding a pizza'>
+               </div>
+                <nav id='nav-bar'>
+               <ul>
+                 <li><a class='nav-link' href='#food'>Food</a></li>
+                 <li><a class='nav-link' href='#howItIsMade'>How It's Made</a></li>
+                 <li><a class='nav-link' href='#pricing'>Pricing</a></li>
+               </ul>
+      </nav>
+      </header>
+
+      <section id='email-section'>
+        <h2>Beautifally Crafted Pies</h2>
+        <form action='https://www.freecodecamp.com/email-submit' id='form'>
+        <input type='email' required placeholder='Enter Your Email Address' name='email' id='email'>
+        <input type='submit' id='submit' value='GET STARTED'>
+        </form>
+      </section>
+          <div class='container'></div>
+        <div id='food'>
+          <div class='grid'>
+            <div class='icon'>
+              <i class="fa-solid fa-pizza-slice"></i>
+              </div>
+            <div class='text'>
+              <h2>Specialty Pies</h2>
+              <p>Our made from scratch Speciality Pies (made with all natural ingrediants) are sure to knock your socks off!</p>
+            </div>
+          </div>
+        </div>
+         <div class='grid'>
+            <div class='icon'>
+              <i class="fa-solid fa-ice-cream"></i>
+              </div>
+            <div class='text'>
+              <h2>Delicious Desserts</h2>
+              <p>Your mind is telling you "no"... But your Body... Your body is telling you yes!</p>
+            </div>
+          </div>
+         <div class='grid'>
+            <div class='icon'>
+              <i class="fa-solid fa-motorcycle"></i>
+              </div>
+            <div class='text'>
+              <h2>Speedy Delivery</h2>
+              <p>From the oven to the door before you know it!</p>
+            </div>
+          </div>
+        <div id='howItIsMade'>
+          <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/8rcZs6Q9jVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id='pricing'>
+          <div class='product'>
+            <div class='level'>PIES</div>
+              <h2>15.99</h2>
+              <ol>
+                <li>The Spartacus</li>
+                <li>The Busteroni</li>
+                <li>The Mahomie</li>
+                <li>The 45 Deluxe</li>
+              </ol>
+              <button class='button'>SELECT</button>
+              </div>
+              <div class='product'>
+            <div class='level'>DESSERTS</div>
+              <h2>8.99</h2>
+              <ol>
+                <li>Brownie Town</li>
+                <li>Ice Cream</li>
+                <li>Fresh Smoothies</li>
+                <li>Cookies</li>
+              </ol>
+              <button class='button'>SELECT</button>
+              </div>
+              <div class='product'>
+            <div class='level'> DRINKS</div>
+              <h2>4.99</h2>
+              <ol>
+                <li>Draft Beers</li>
+                <li>Wine Selection</li>
+                <li>Cocktails</li>
+                <li>Kid Stuff</li>
+              </ol>
+              <button class='button'>SELECT</button>
+              </div>
+            </div>
+        </div>
+        </section> 
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #FCFBDC; font-family: Rockwell, palatino; align-items: center
+}
+nav{position:fixed;}
+#header{
+  display: flex; flex-direction: row;
+}
+
+#header-img {width: 90%; max-width: 275px; height: 90%; top: 0; margin-left: 0; padding-left: 0}
+
+#nav-bar { font-weight: 500; display: flex; flex-direction: row; margin-right: 0; top: 0; 
+
+}
+
+ul {
+  display: flex; flex-direction: row; justify-content: space-around;
+}
+
+li {
+  list-style: none; 
+}
+
+.nav-link { 
+  text-decoration: none; color: #DE660E; top: 0;
+}
+
+#email-section, #form {
+  display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; max-width: 900px;
+}
+
+#email-section input[type='submit'] {
+  background-color: #DE660E; margin-top: 10px; border: none; 
+}
+
+logo {width: 75vw}
+
+.grid {
+  display: flex; flex-direction: row; 
+}
+
+.fa-solid {
+  color: #DE660E; font-size: 50px; 
+}
+
+.icon {
+  width: 150px; display: flex; justify-content: center; align-items: center; 
+}
+
+#howItisMade {
+  margin: 40px; 
+  display: flex; align-items: center; justify-content: center;
+}
+
+#pricing{ 
+  display: flex; flex-direction: row; justify-content: space-around; width: 100%; margin-top: 50px; margin-bottom: 100px; 
+}
+
+.product { 
+  display: flex; flex-direction: column; width: calc(100%/3); border: 2px solid #DE660E; margin: 15px;
+}
+.level {
+  color: black; background-color: #FEC96C; padding: 18px 0; text-align: center;  
+}
+
+h2 { 
+  text-align: center; 
+}
+
+ol { 
+  color: #DE660E;
+}
+
+.button {
+background-color: #FEC96C; border: none; margin: 15px 0; font-size: 16px; 
+}
+
+@media(max-width: 475px) { #pricing {
+  flex-direction: cloumn
+}
+
+}
