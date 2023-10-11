@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>My portfolio</title>
+  </head>
+  <body>
+
+<header>
+  
+
+
+    <nav id="navbar">
+      <ul class="navbar-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">My work</a></li>
+        <li><a href="#contact">Reach me!</a></li>
+      </ul>
+
+    </nav>
+    </header>
+
+    <!-- COMIENZA LA WELCOME SECTION -->
+    <section id="welcome-section" class="welcome-section">
+      <h1>Weee I'm Bob Marin</h1>
+      <p>Runner and selft-taugth developer</p>
+    </section>
+
+<!-- TERMINA LA WELCOME SECTION -->
+
+<!-- COMIENZA LA Projects SECTION -->
+    <section id="projects" class="projects-section">
+      <h2 class="project-header">Find below some of my projects
+
+      </h2>
+      <div class="project-grid">
+        <a href="https://robmaasmarin.github.io/GalicianPhishingvillages.github.io/" target="_blank" class="project project-tile">
+
+        <img src="https://mochilerosindinero.com/wp-content/uploads/2021/11/cambadosSadurnio.jpg" alt="project" class="project-image">
+        <p class="project-title">Phishing Villages</p>
+        </a>
+        <a href="https://robmaasmarin.github.io/magazine.github.io/" target="_blank" class="project project-tile">
+
+        <img src="https://robmaasmarin.github.io/magazine.github.io/magazineimage.PNG" alt="project" class="project-image">
+        <p class="project-title">Our magazine</p>
+        </a>
+
+        <a href="https://robmaasmarin.github.io/cityskyline.github.io/" target="_blank" class="project project-tile">
+
+        <img src="https://robmaasmarin.github.io/cityskyline.github.io/skyline.png" alt="project" class="project-image">
+
+        <p class="project-title">City skyline</p>
+        </a>
+
+      </div>
+
+      <a href="https://github.com/robmaasmarin" class="btn click-here-for-more" target="_blank">Click here to find out more  <i class="fa-solid fa-circle-plus"></i></a>
+
+    </section>
+
+    <!-- TERMINA LA Projects SECTION -->
+
+<!-- Sección de contacto -->
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h2>Let's do have a chat</h2>
+        <p>Running or programming?</p>
+
+      </div>
+      <div class="contact-links">
+        <a href="https://www.instagram.com/robmaasmarin/" target="_blank" class="btn contact-details"><i class="fa-brands fa-instagram"></i> instagram</a>
+
+        <a href="https://github.com/robmaasmarin" id="profile-link" target="_blank" class="btn contact-details"><i class="fa-brands fa-github-alt"></i> GitHub</a>
+        <a href="https://twitter.com/robmaasmarin" target="_blank" class="btn contact-details"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+        <a href="https://www.linkedin.com/in/roberto-abelleira-pesqueira-554b44a1/" target="_blank" class="btn contact-details"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+
+
+      </div>
+
+    </section>
+
+    <footer>
+      <p>Hope you enjoyed my very first portfolio of many to come.</p>
+
+      <p>This is part of the activity "Build a Personal Portfolio Webpage" by<a href="https://www.freecodecamp.org/" target="_blank">
+         freeCodeCamp <i class="fa-brands fa-free-code-camp"></i></a></p>
+
+
+    </footer>
+
+
+  </body>
+</html>
